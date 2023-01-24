@@ -23,7 +23,7 @@
                     <span class="navbar-toggler-icon"></span>
                   </button>
                   <div class="collapse navbar-collapse gap-5" id="navbarSupportedContent">
-                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fw-semibold gap-">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fw-semibold">
                       <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                       </li>
@@ -81,32 +81,72 @@
     </header>
     <!--search-section--> 
     <section>
-    <div id="Example" class="images">
+    <div id="Example" class="images-fluid text-start">
       <div class="inner">
         <div class="item active">
          <div class="banner-img-1 ">
-          <img src="../images/banner.png" class="d-block w-100" alt="...">
-          <div class="d-flex justify-content-center align-items-center">
-            <h1 class=".bg-white">We Provide Effective Legal Solutions</h1>
+          <img src="../images/banner.png" class="w-100" alt="...">
+          <div class="text-secondary position-absolute top-50 start-50 translate-middle ">
+            <h1 class=".bg-white fw-bold text-sm-start">We Provide Effective 
+              <br>Legal Solutions</h1>
             <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2 p-3" type="search" placeholder="Search your services" aria-label="Search">
+              <button class="btn btn-primary" type="submit">Search</button>
+            </form>
           </div>
          </div>
        </div>
        </div>
-      <button class="control-prev" type="button" data-bs-target="#Example" data-bs-slide="prev">
-        <span class="control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="control-next" type="button" data-bs-target="#Example" data-bs-slide="next">
-        <span class="control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
+ 
     </div>
   </section>
 
     <!--main-->
    <main>
+<!--practice area seciotn-->
+         <section class=" text-start text-md-center mt-5">
+             <h1>The Legal Practice Area</h1>
+             <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+             <!--<div class="row">
+              <div class="col">
+                <img src="../images/business.png" alt="">
+                <h2>Business Law</h2>
+                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+              <img src="../images/Frame.png" alt="">
 
+              </div>
+             </div>-->
+             <div class="card-group">
+              <div class="card">
+                <img class="w-1rem" src="../images/business.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Business Law</h5>
+                  <p class="card-text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                  <img src="../images/Frame.png" alt="">
+                 
+                </div>
+              </div>
+              <div class="card">
+                <img src="../images/criminal.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Criminal Law</h5>
+                  <p class="card-text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                  <img src="../images/Frame.png" alt="">
+                 
+                </div>
+              </div>
+              <div class="card">
+                <img src="../images/child.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Child Support</h5>
+                  <p class="card-text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                  <img src="../images/Frame.png" alt="">
+                 
+                </div>
+              </div>
+            </div>
+         </section>
 
    </main>
 
