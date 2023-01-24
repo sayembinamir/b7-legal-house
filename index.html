@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;600;800&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+   
 </head>
 <body class="container-lg">  
     <!--navbar-->
@@ -23,7 +24,7 @@
                     <span class="navbar-toggler-icon"></span>
                   </button>
                   <div class="collapse navbar-collapse gap-5" id="navbarSupportedContent">
-                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fw-semibold">
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0 fw-semibold">
                       <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                       </li>
@@ -45,14 +46,14 @@
                         <a class="nav-link">Contact Us</a>
                       </li>
                     </ul>
-                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@getbootstrap">Free Consultation</button>
+                    <button type="button" class="btn btn-primary button-hover p-3" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@getbootstrap">Free Consultation</button>
 
                     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                       <div class="modal-dialog">
                         <div class="modal-content">
                           <div class="modal-header">
                             <h1 class="modal-title fs-5" id="exampleModalLabel">New message</h1>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            <button type="button" class="btn-close button-hover" data-bs-dismiss="modal" aria-label="Close"></button>
                           </div>
                           <div class="modal-body">
                             <form>
@@ -68,7 +69,7 @@
                           </div>
                           <div class="modal-footer">
                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                            <button type="button" class="btn btn-primary">Send message</button>
+                            <button type="button" class="btn btn-primary button-hover">Send message</button>
                           </div>
                         </div>
                       </div>
@@ -80,25 +81,19 @@
         </div>
     </header>
     <!--search-section--> 
-    <section>
-    <div id="Example" class="images-fluid text-start">
-      <div class="inner">
-        <div class="item active">
-         <div class="banner-img-1 ">
-          <img src="../images/banner.png" class="w-100" alt="...">
-          <div class="text-secondary position-absolute top-50 start-50 translate-middle ">
-            <h1 class=".bg-white fw-bold text-sm-start">We Provide Effective 
-              <br>Legal Solutions</h1>
-            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2 p-3" type="search" placeholder="Search your services" aria-label="Search">
-              <button class="btn btn-primary" type="submit">Search</button>
-            </form>
-          </div>
-         </div>
-       </div>
-       </div>
- 
+    <section class="container">
+    <div class="banner-img py-5 d-flex text-center justify-content-center align-items-center text-white container-fluid mx-auto ">
+      <div class="mx-auto my-5" style="max-width:692px">
+      <h1 class="display-3 fw-bolder">We Provide Effective Legal Solutions</h1>
+      <p>
+        There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.
+      </p>
+      <div class="d-flex pb-3">
+     <input class=" form-controlms-5 w-75 p-3 mx-3" type="search" placeholder="Search" aria-label="Search">
+     <button class="btn btn-primary button-hover p-3">Search</button>
+      </div>
+      </div>
+
     </div>
   </section>
 
@@ -139,7 +134,7 @@
          </section>
   
   <!--client-profile-->
-  <section class=" text-start text-md-center mt-5 p-10">
+  <section class=" text-start text-md-center mt-5 p-30">
     <h1>What Our Client Say</h1>
     <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
 
@@ -153,7 +148,7 @@
         <div class="carousel-item active text-start text-md-center mt-5 p-10">
           <img src="../images/slider-1.jpg" class="d-block w-100" alt="...">
           <div class="carousel-caption">
-            <img class="w-25" src="../images/user-1.png" alt="">
+            <img style="max-width:100px" src="../images/user-1.png" alt="">
             <h5 class="fw-bold">Sayem Bin Amir</h5>
             <h3 class="fs-4">UIX Designer</h3>
             <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur.</p>
@@ -162,7 +157,7 @@
         <div class="carousel-item text-start text-md-center mt-5 p-25">
           <img src="../images/slider-2.jpg" class="d-block w-100" alt="...">
           <div class="carousel-caption">
-            <img class="w-25" src="../images/user-1.png" alt="">
+            <img style="max-width:100px" src="../images/user-1.png" alt="">
             <h5 class="fw-bold">Sayem Bin Amir</h5>
             <h3 class="fs-4">UIX Designer</h3>
             <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur.</p>
@@ -171,7 +166,7 @@
         <div class="carousel-item text-start text-md-center mt-5 p-10">
           <img src="../images/slider-3.jpg" class="d-block w-100" alt="...">
           <div class="carousel-caption ">
-            <img class="w-25" src="../images/user-1.png" alt="">
+            <img style="max-width:100px" src="../images/user-1.png" alt="">
             <h5 class="fw-bold">Sayem Bin Amir</h5>
             <h3 class="fs-4">UIX Designer</h3>
             <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur.</p>
@@ -275,7 +270,7 @@
      </div>
      <input type="text" class="form-control bg-body-tertiary my-3" placeholder="Subject">
      <textarea type="text" class="form-control bg-body-tertiary  my-2 h-50" placeholder="Your message"></textarea>
-     <button class="btn btn-primary h-50 my-2 h-50">Send message</button>
+     <button class="btn btn-primary button-hover h-50 my-2 h-50">Send message</button>
     </div>
   </section>
 
@@ -285,11 +280,11 @@
    <footer class="mt-5 bg-black">
     <div class=" container p-5">
       <div class="row">
-        <div class="col-md-3">
-          <img class="fw-bold text-white display-4" src="../images/logo2.png" alt="">
-          <p class="text-white">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+        <div class="col-md-3 py-5">
+          <img class="fw-bold text-white display-4" src="../images/logo.png" alt="">
+          <p class="text-white p-3">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
         </div>
-        <div class="col-md-2">
+        <div class="col-md-2 py-5">
           <h6 class="fw-bold text-white ">Usefull Link</h6>
           <p><a class="text-decoration-none text-white" href="">Home</a></p>
           <p><a class="text-decoration-none text-white"href="">About Us</a></p>
@@ -297,7 +292,7 @@
           <p><a class="text-decoration-none text-white"href="">Blog</a></p>
           <p><a class="text-decoration-none text-white" href="">Contact Us</a></p>
         </div>
-        <div class="col-md-2">
+        <div class="col-md-2 py-5">
           <h6 class="fw-bold text-white ">Contact Now</h6>
           <p><a class="text-decoration-none text-white"href="">555 4th 5t NW, Washington
             DC 20530, United States</a></p>
@@ -306,14 +301,14 @@
           <p><a class="text-decoration-none text-white" href="">info@gmail.com
             info@gmail.com</a></p>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 py-5">
           <h6 class="text-white">Subscribe</h6>
           <p class="text-white">Subscribe for our latest & Articles. We Won’t Give You Spam Mails</p>
           <div class="input-group">
             <select class="form-select" id="inputGroupSelect04" aria-label="Example select with button addon">
               <option selected>Email Address</option>
             </select>
-            <button class="btn btn-primary" type="button">Send Email</button>
+            <button class="btn btn-primary button-hover" type="button">Send Email</button>
           </div>
         </div>
   

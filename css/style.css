@@ -1,5 +1,8 @@
-@include media-breakpoint-up(sm) {
-    .custom-class {
-      display: block;
-    }
-  }
+.banner-img{
+  background-image: url("../images/banner.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+ .button-hover:hover{
+  background-color: #B68C5A !important;
+}
